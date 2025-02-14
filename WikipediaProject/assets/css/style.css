@@ -3,6 +3,7 @@ body, html {
     padding: 0;
     font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .infobox infoboxv2 {
     display: flex;
     justify-content: space-between;
@@ -12,6 +13,7 @@ body, html {
     border-radius: 5px;
     margin-top: 10px;
 }
+
 .corpo {
     background-color: transparent;
     align-items: center;
@@ -22,77 +24,96 @@ body, html {
     margin-right: 50px;
     border-bottom: 3px solid #cdcdcd;
 }
+
 ul { list-style: none; padding-left: 0; }
 a { color: blue; text-decoration: none; }
+
 .bar {
     background-color: #f9f9fb;
     padding: 15px;
     border-top: solid 1px #cdcdcd;
     border-bottom: solid 1px #cdcdcd;
 }
+
 .content {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 20px;
 }
+
 .text-content {
     flex: 1;
     margin-right: 20px;
 }
+
 .image-container {
     border-left: 2px solid #cdcdcd;
     padding-left: 20px;
 }
+
 .logohtml {
     width: 10%;
     height: auto;
 }
+
 tr {
     border: 1px solid #cdcdcd;
 }
+
 .footer {
     min-height: 100px;
     border-top: solid 1px #cdcdcd;
 }
+
 .anchors {
     border-left: solid 1px #cdcdcd;
     padding-left: 15px;
     height: 10%;
 }
+
 .sidebar {
     border-right: solid 1px #cdcdcd;
 }
+
 figure {
     text-align: center;
     padding-top: 50px;
 }
+
 img {
     max-width: 100%;
     height: auto;
 }
+
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 4px;
-    border: 1px solid #cdcdcd;
+    border-bottom: 2px solid #cdcdcd;
     font-size: 20px;
+    right: 150px;
 }
-div.progress{
+
+div.progress {
+    font-size: 12px;
     border: 1px solid #cdcdcd;
-    border-radius: 5px;
     padding: 1px;
     margin-top: 10px;
 }
+
 .logo-container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 5px;
     background-color: transparent;
     border: 2px solid #e7e5e5;
@@ -101,46 +122,63 @@ div.progress{
     width: 100%;
     box-sizing: border-box;
 }
+
 .logo-container .logo {
-    margin-right: 10px;
-}
-table.infobox.infobox_v2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-right: 0px;
     align-items: center;
-    padding: 10px;
-    border: 1px solid #5f3f3f;
-    border-radius: 5px;
-    margin-top: 10px;
+    justify-content: center;
 }
+
 .logo-container img {
-    margin-right: 10px;
+    margin-right: 0px;
     height: 60px;
-    top: 5px;
-    width: auto;
+    width: 55px;
+    top: -25px; /* Move a imagem 25px para cima */
 }
-.img1 {
+
+
+
+.img3 {
     position: relative;
     z-index: 1;
+    width: 90px;
+    height: auto;
+    top: -9px;
+    right: 490px;
 }
-.img2 {
+img.img1 {
     position: relative;
-    top: -20px; /* Ajuste conforme necessário */
-    left: 0;
-    z-index: 0;
+    z-index: 1;
+    width: 90px;
+    height: auto;
+top: -65px;
+left: -430px;
 }
+
+img.img2 {
+    position: relative;
+    top: -62px; /* Ajuste conforme necessário */
+    right: 650px; /* Ajuste conforme necessário */
+    z-index: 0;
+    width: 80px;
+    height: auto;
+    top: -65px;
+left: -430px;
+}
+
 progress {
     width: 100%;
     height: 60px;
     pointer-events: visible;
 }
+
 .progress-bar {
-    background-color: #555a55;
+    background-color: #f50052;
     width: 0%;
     height: 100%;
     border-radius: 5px;
 }
+
 .progress-bar-container {
     font-size: 1.1rem;
     width: 100%;
@@ -150,6 +188,7 @@ progress {
     margin-top: 5px;
     padding-right: 50%;
 }
+
 .progress-bar-container a {
     margin-right: 15px; /* Espaçamento de 15px entre os links */
     color: #5b4caf;
@@ -160,9 +199,11 @@ progress {
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.3s;
 }
+
 .progress-bar-container a:hover {
     border-bottom: 1px solid #050505;
 }
+
 .Menu-horizontal-direito {
     display: flex;
     justify-content: flex-end;
@@ -173,41 +214,83 @@ progress {
     margin-top: 10px; /* Espaçamento entre os contêineres */
     margin-right: 8px;
 }
+
 .Menu-horizontal-direito ul {
     display: flex;
     white-space: 10px;
     margin: 0;
 }
+
 .Menu-horizontal-direito li {
     list-style: none;
     margin-right: 10px;
 }
+
 .Menu-horizontal-direito a {
-    height: 2px;
-    font-size: 10px;
     margin-right: 15px; /* Espaçamento de 15px entre os links */
     color: #5b4caf;
-    letter-spacing: 1px;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     pointer-events: visible;
     position: relative;
+    border-style: hidden;
+    border-bottom: 1px solid transparent;
     transition: border-bottom 0.3s;
 }
+
 .Menu-horizontal-direito a:hover {
     border-bottom: 1px solid #050505;
 }
-td {
-    border: 1px solid #cdcdcd;
-    padding: 5px;
+
+input {
+   
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 5px;
+    border: 2px solid #000000d7;
+   
 }
-.menu-progress-container {
+
+button {
+
+    padding-left: 2px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5px;
+    right: 50px;
+    top: 10px;
+    border: 2px solid '#00000';
 }
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .title-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Espaçamento entre o h2 e o input */
+    gap: 1px; /* Espaçamento entre o h2 e o input */
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+margin-right: 850px;
+
+}
+
+.custom-toc-checkbox {
+    background-color: rgb(219, 219, 219);
+    border: 1px solid #000;
+}
+
+
+
+
+
+td {
+    border: 1px solid #df2222;
+    padding: 5px;
 }
